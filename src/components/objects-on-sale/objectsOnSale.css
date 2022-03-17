@@ -1,0 +1,12 @@
+.sale_objects {
+    margin-top: 100px;
+}
+.onSale {
+    display: flex;
+    justify-content: space-between;
+}
+.sale-cards {
+    width: 312px;
+    height: 312px;
+    background: #C4C4C4;
+}
