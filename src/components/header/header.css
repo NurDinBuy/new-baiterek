@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-.links {
+.link {
     width: 1000px;
     display: flex;
     margin: 0 auto;
@@ -23,18 +23,21 @@
     font-size: 30px;
 }
 
-.link {
+.link a {
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     color: #666666;
 }
 
-.link:hover {
+.link a:hover {
     color: #446CDB;
     transition: 0.2s;
 }
-
+.link select {
+    border: none;
+    background: none;
+}
 .phone {
     width: 109px;
     height: 42px;

@@ -90,7 +90,7 @@ const SaleDetails = () => {
                                     <p>3 ком 60m2 ____________ 35000$</p>
                                     <p>4 ком 96m2 _______ 49000$ 96m2</p>
                                 </div>
-                                <button>Смотреть</button>
+                                <Link to='/saleInfo'><button>Смотреть</button></Link>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const SaleDetails = () => {
                                     <p>3 ком 60m2 ____________ 35000$</p>
                                     <p>4 ком 96m2 _______ 49000$ 96m2</p>
                                 </div>
-                                <button>Смотреть</button>
+                                <Link to='/saleInfo'><button>Смотреть</button></Link>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ const SaleDetails = () => {
                                     <p>3 ком 60m2 ____________ 35000$</p>
                                     <p>4 ком 96m2 _______ 49000$ 96m2</p>
                                 </div>
-                                <button>Смотреть</button>
+                                <Link to='/saleInfo'><button>Смотреть</button></Link>
                             </div>
                         </div>
                     </div>
