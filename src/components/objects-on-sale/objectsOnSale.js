@@ -7,10 +7,10 @@ const ObjectsOnSale = () => {
             <div className='container'>
                 <h1>Объекты в продаже</h1>
                 <div className="onSale">
-                    <div className="sale-cards"></div>
-                    <div className="sale-cards"></div>
-                    <div className="sale-cards"></div>
-                    <div className="sale-cards"></div>
+                    <div className="on-sale-cards"></div>
+                    <div className="on-sale-cards"></div>
+                    <div className="on-sale-cards"></div>
+                    <div className="on-sale-cards"></div>
                 </div>
             </div>
         </div>

@@ -16,9 +16,10 @@ const Header = () => {
                     <Link to="/"><img src={logo}/></Link>
                 </div>
                 <div className="links">
-                    <Link to="">Проекты</Link>
-                    <Link to="/stocks">Акции</Link>
-                    <Link to="">Новости</Link>
+                    <Link className="link" to="">Проекты</Link>
+                    <Link className="link" to="/stocks">Акции</Link>
+                    <Link className="link" to="">Способы Покупки</Link>
+                    <Link className="link" to="">Новости</Link>
                 </div>
                 <div className="phone">
                     <img src={phoneSVG}/>
