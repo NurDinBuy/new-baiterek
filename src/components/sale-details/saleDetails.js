@@ -55,16 +55,20 @@ const SaleDetails = () => {
                                 <p>Роскошный город на окраине Города</p>
                                 <span>Премиум</span>
                             </div>
-                            <div className={`modal-card ${show}`}>
-                                <h3>Akjol Village</h3>
-                                <div>
-                                    <p>1 ком 35m2 ____________ 16700$</p>
-                                    <p>2 ком 48m2 ____________ 22000$</p>
-                                    <p>3 ком 60m2 ____________ 35000$</p>
-                                    <p>4 ком 96m2 _______ 49000$ 96m2</p>
+                                <div className={`modal-card ${show}`}>
+                                    <Link to='/saleInfo' className="card-name">
+                                        <div className="link-card">
+                                            <h3>Akjol Village</h3>
+                                            <div>
+                                                <p>1 ком 35m2 ____________ 16700$</p>
+                                                <p>2 ком 48m2 ____________ 22000$</p>
+                                                <p>3 ком 60m2 ____________ 35000$</p>
+                                                <p>4 ком 96m2 _______ 49000$ 96m2</p>
+                                            </div>
+                                            <button>Смотреть</button>
+                                        </div>
+                                    </Link>
                                 </div>
-                                <Link to='/saleInfo'><button>Смотреть</button></Link>
-                            </div>
                         </div>
                     </div>
 

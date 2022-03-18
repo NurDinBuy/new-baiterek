@@ -8,6 +8,13 @@
     align-items: center;
     margin: 20px 0 50px 0;
 }
+.card-name {
+    text-decoration: none;
+    color: #fff;
+}
+.card-name:hover {
+    color: white;
+}
 
 .sale_item {
     width: 655px;
@@ -19,6 +26,10 @@
     border-radius: 15px;
     padding: 20px;
 }
+.sale_item:hover {
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.25);
+}
+
 .sale-cards{
     display: flex;
     align-items: center;
@@ -94,6 +105,10 @@
 .modal-card.show {
     display: block;
     transition: 0.5s;
+}
+.link-card {
+    width: 470px;
+    height: 370px;
 }
 
 
