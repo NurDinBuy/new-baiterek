@@ -1,0 +1,7 @@
+.payment {
+  width: 655px;
+  height: 400px;
+  background: gray;
+  margin-top: 50px;
+  cursor: pointer;
+}

@@ -7,6 +7,7 @@ import Stocks from '../pages/stocks/stocks'
 import HomePage from "../pages/home-page";
 import StockDetails from "../pages/stocks-details";
 import SaleInformation from "../pages/saleInformation";
+import Payment from "../pages/payment/payment";
 
 const Header = () => {
     return (
@@ -24,7 +25,7 @@ const Header = () => {
             <Link to="/stocks">
               <a href="">Акции</a>
             </Link>
-            <Link to="">
+            <Link to="/payment">
               <a href="">
                 Способы покупки
                 <select>
@@ -46,6 +47,7 @@ const Header = () => {
           <Route path="/stocks" element={<Stocks />} />
           <Route path="/details" element={<StockDetails />} />
           <Route path="/saleInfo" element={<SaleInformation />} />
+          <Route path='/payment' element={<Payment />} />
         </Routes>
       </>
     );
